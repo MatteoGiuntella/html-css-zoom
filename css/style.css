@@ -5,7 +5,20 @@
     box-sizing: border-box;
 }
 /* general */
-.container{
-    width: 1200px;
-    margin: auto;
+.container-header{
+    background-color: black;
+    height: 60px;
+}
+/* header */
+.button-top-header{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+.button-top-header > div {
+    height: 20px;
+    background-color: lightslategray;
+    color: white; 
+    margin: 5px;
+    line-height: center;
 }
