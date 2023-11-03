@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 /* general */
 .container-header{
@@ -37,13 +37,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* overflow: auto; */
 }
 .cam{
     width: 150px;
     position: relative;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px; 
 }
 img{
     display: block;
@@ -58,11 +56,51 @@ img{
     left: 0;
     font-size: 10px;
 }
-
-
 /* footer */
 
 .container-footer{
     background-color: rgba(0, 0, 0, 0.7);
     height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-footer > *{
+    color: white;
+}
+.box-footer-left, .box-footer-center, .box-footer-right{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.mic, .video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mic- , #video-{
+    font-size: 25px;
+}
+#green{
+    color: green;
+    font-size: 25px;
+}
+.gray-box{
+    display: flex;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+#red-write{
+    color: red;
+}
+.box-footer-center > div{
+    margin: 0 10px;
+}
+.box-footer-left > div{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.box-footer-right > div{
+    margin-right: 10px;
+    
 }
