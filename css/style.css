@@ -27,16 +27,23 @@
 .container-main{
     background-color: black;
     height: calc( 100vh - 140px);
+    overflow: auto;
 }
 .container-cam{
     width: 1000px;
     margin: auto;
     min-height: 200px;
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* overflow: auto; */
 }
 .cam{
     width: 150px;
     position: relative;
+    margin-bottom: 10px;
+    
 }
 img{
     display: block;
